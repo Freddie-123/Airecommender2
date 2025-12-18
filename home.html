@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tool Finder - Home</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="home-page">
+    <header>
+        <div class="container">
+            <div class="logo">AI Tool Finder</div>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">My Tools</a>
+                <a href="#">Profile</a>
+                <button id="logoutBtn" class="btn btn-outline">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Ad Space Top -->
+        <div class="ad-space">
+            <p>Advertisement Space</p>
+        </div>
+
+        <!-- Main Search -->
+        <div class="search-container">
+            <h1>What do you need help with?</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Describe what you want to do...">
+                <button id="searchBtn" class="btn btn-primary">Find AI Tools</button>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="results-container">
+            <!-- Results will appear here -->
+        </div>
+
+        <!-- Ad Space Bottom -->
+        <div class="ad-space">
+            <p>Advertisement Space</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI Tool Finder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../src/app.js"></script>
+    <script src="../src/auth.js"></script>
+</body>
+</html>
